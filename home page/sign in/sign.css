@@ -1,0 +1,135 @@
+body,html{
+
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    background-image: url(a2.jpg);
+    background-size: cover;
+    
+}
+
+.A{
+position: absolute;
+backdrop-filter: blur(2px);
+left: 50%;
+top: 50%;
+transform:translate(-50%,-50%);
+border-style: solid;
+border-color: rgb(109, 94, 63);
+width: 300px;
+height: 300px;
+border-radius: 20px;
+}
+#B{
+text-align: center;   
+}
+.inbut{
+
+position: relative;
+left: 50px;
+
+    display: flex;
+flex-direction:column;
+width: 200px;
+
+
+}
+.icon{
+
+position: relative;
+left: 185px;
+bottom:20px ;
+}
+
+
+.head{
+    justify-items: center;
+background-color: #daaf5a;
+display: flex;
+border-radius: 20px;
+width: 1500px;
+}
+
+.material-symbols-outlined{
+    position: absolute;
+    right: 400px;
+    top: 110px;
+
+    font-size: 150px !important;
+    color: #E4DCCF;
+}
+h1{
+    font-size: 2.4rem;
+    color: #c3b9ac;
+    font-family: 'Noto Naskh Arabic', 'Tahoma', sans-serif; 
+
+}
+h2{
+    font-size: 5rem;
+    color: #000000;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-200%);
+font-family:'cairo', 'Tahoma';
+
+}
+a {
+    text-decoration: none;
+  }
+  .col1-txt{
+    position: relative;
+    right: 20px;
+        }
+        .col1, .col2, .col3, .col4, .col5{
+            position: relative;
+            top: 8%;
+            height: 130px;
+            width: 300px;
+            color: #E4DCCF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    
+        }
+        .col1:hover{
+            transition:all 0.3 ease-in-out ;
+            border-radius: 40px;
+            border:1px solid #c3b9ac;
+            background-color: #860202;
+    
+        }
+        .col2:hover{
+            transition:all 0.3 ease-in-out ;
+            border-radius: 40px;
+            border:1px solid #c3b9ac;
+            background-color: #860202;
+    
+        }
+        .col4:hover{
+            transition:all 0.3 ease-in-out ;
+            border-radius: 40px;
+            border:1px solid #c3b9ac;
+            background-color: #860202;
+    
+        }
+    
+    
+    
+        .col{
+            border: 1px solid;
+            border-radius: 50px;
+            border-color:#00203F;
+        }
+        .col5{
+            position: relative;
+            background-image: url("IMAGE/logo.png");
+            background-repeat:no-repeat ;
+            right: 10px;
+    
+        background-position:20%;
+        }
